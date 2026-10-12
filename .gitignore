@@ -1,0 +1,24 @@
+# This repository is exclusively for public portfolio content.
+# Keep proprietary projects in separate private repositories outside this folder.
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+Thumbs.db
+private/
+proprietary/
+work/
+*.qgz
+*.qgs
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.tif
+*.tiff
+*.las
+*.laz
+*.dwg
+*.dxf
