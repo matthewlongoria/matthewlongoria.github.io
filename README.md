@@ -1,8 +1,8 @@
 # Matthew Longoria, EIT
 
-Public professional portfolio for civil engineering, GIS, water resources, and future QGIS tools.
+Public professional portfolio for civil engineering, GIS, water resources, and AI development, with a résumé, planned Kiwami Reader and Hello Work showcases, GIS projects, and future AutoCAD and QGIS plugins.
 
-Website: https://yetiiiistar.github.io/
+Website: https://matthewlongoria.github.io/
 
 ## Website
 
