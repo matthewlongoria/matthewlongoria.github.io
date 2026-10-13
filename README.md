@@ -1,6 +1,6 @@
 # Matthew Longoria, EIT
 
-Public professional portfolio for civil engineering, GIS, water resources, and AI development, with a résumé, planned Kiwami Reader and Hello Work showcases, GIS projects, and future AutoCAD and QGIS plugins.
+Public professional portfolio for civil engineering, GIS, water resources, and AI development, with a résumé, a Kiwami Reader project page, Civil 3D and OpenRoads project sections, ArcGIS and QGIS projects, and future AutoCAD and QGIS plugins.
 
 Website: https://matthewlongoria.github.io/
 
