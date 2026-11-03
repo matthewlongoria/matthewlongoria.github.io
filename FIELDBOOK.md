@@ -1,4 +1,4 @@
-# Atlas Foundry Fieldbook — v0.1
+# Field & Signal Fieldbook — v0.1
 Free device-local field observation PWA prototype. No backend, accounts, telemetry, external map tiles, or private engineering-plugin code. Retains the existing fieldandsignal.tech domain.
 
 ## Included
@@ -7,7 +7,7 @@ IndexedDB notebook, editing, search/category filters, recoverable trash/restore,
 PWA manifest, 192/512 icons, and a versioned allowlisted service worker cache only the public app assets. The portfolio and private downloads are never cached. Browser-record data is separate from the app cache. No native iOS/Android package or store listing is included.
 
 ## Deployment
-Upload fieldbook.html, fieldbook.css, fieldbook.mjs, fieldbook-core.mjs, fieldbook-sw.js, fieldbook.webmanifest, fieldbook-icon-192.png, fieldbook-icon-512.png at the portfolio root. The updated index.html links to it. Do not upload any private GIS/CAD source folders. Serve over HTTPS, keeping .mjs JavaScript MIME types. The current pending portfolio commit includes Atlas Foundry branding, GIS emphasis, engineering samples and Trail Ledger; deploy those separately only from the public checkout.
+Upload fieldbook.html, fieldbook.css, fieldbook.mjs, fieldbook-core.mjs, fieldbook-sw.js, fieldbook.webmanifest, fieldbook-icon-192.png, fieldbook-icon-512.png at the portfolio root. The updated index.html links to it. Do not upload any private GIS/CAD source folders. Serve over HTTPS, keeping .mjs JavaScript MIME types. The current pending portfolio commit includes Field & Signal branding, GIS emphasis, engineering samples and Trail Ledger; deploy those separately only from the public checkout.
 
 ## Device acceptance gate — still pending
 1. Open fieldbook.html online over HTTPS on iPhone Safari and Android Chrome.

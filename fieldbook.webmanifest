@@ -1,5 +1,5 @@
 {
- "id":"./fieldbook.html", "name":"Atlas Foundry Fieldbook", "short_name":"Fieldbook",
+ "id":"./fieldbook.html", "name":"Field & Signal Fieldbook", "short_name":"Fieldbook",
  "description":"A device-local field notebook with optional GPS, photos, and GIS exports.",
  "start_url":"./fieldbook.html", "scope":"./", "display":"standalone",
  "background_color":"#f5f3eb", "theme_color":"#143e39",
