@@ -1,4 +1,4 @@
-const CACHE='af-fieldbook-v2';
+const CACHE='af-fieldbook-v3';
 const FILES=['./fieldbook.html','./fieldbook.css','./fieldbook.mjs','./fieldbook-core.mjs','./fieldbook.webmanifest','./fieldbook-icon-192.png','./fieldbook-icon-512.png'];
 const URLS=new Set(FILES.map(path=>new URL(path,self.location.href).href));
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES))));
