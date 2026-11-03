@@ -1,0 +1,4 @@
+asset_id,us_invert,ds_invert,length,invert_to_outer_crown,ground_us,ground_ds
+SYN-01,100,99,100,1,103,102
+SYN-02,99,99.2,40,0.8,101,101
+SYN-03,99.2,99.1,50,0.8,100.5,100.2

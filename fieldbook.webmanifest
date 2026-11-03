@@ -1,0 +1,7 @@
+{
+ "id":"./fieldbook.html", "name":"Atlas Foundry Fieldbook", "short_name":"Fieldbook",
+ "description":"A device-local field notebook with optional GPS, photos, and GIS exports.",
+ "start_url":"./fieldbook.html", "scope":"./", "display":"standalone",
+ "background_color":"#f5f3eb", "theme_color":"#143e39",
+ "icons":[{"src":"fieldbook-icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"fieldbook-icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
+}

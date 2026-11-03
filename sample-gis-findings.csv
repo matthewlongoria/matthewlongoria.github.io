@@ -1,0 +1,8 @@
+﻿row,asset_id,code,detail
+0,,CRS_MISMATCH,Layer CRS differs from the explicitly requested delivery CRS; no reprojection performed.
+1,SYN-A,DUPLICATE_ID,Repeated asset ID; comparison is trimmed and case-sensitive.
+2,SYN-A,DUPLICATE_ID,Repeated asset ID; comparison is trimmed and case-sensitive.
+2,SYN-A,MISSING_STATUS,Status is blank.
+2,SYN-A,INVALID_GEOMETRY,Host GIS geometry validation failed; review in source layer.
+3,,MISSING_ID,Asset ID is blank.
+3,,EMPTY_GEOMETRY,No usable geometry.

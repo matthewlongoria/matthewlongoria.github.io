@@ -1,0 +1,4 @@
+corridor,lane,station,slope_pct
+SYN-A,L,0,-2
+SYN-A,L,20,2
+SYN-A,L,60,9

@@ -1,0 +1,4 @@
+element_id,actual_feature,expected_feature,actual_level,expected_level
+SYN-1,Road,Road,Pavement,Pavement
+SYN-2,Default,Road,Default,Pavement
+SYN-3,Drain,,Drain,Drain

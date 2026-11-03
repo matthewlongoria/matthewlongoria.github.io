@@ -1,0 +1,6 @@
+﻿row,asset_id,code,detail
+2,102,NEAR_XY,Within 0.01 metres of row 1 / point 101; XY distance 0.00707107. Elevations may differ.
+3,103,DUPLICATE_POINT_NUMBER,Repeated in this file.
+3,103,MISSING_DESCRIPTION,Field description is blank.
+4,103,DUPLICATE_POINT_NUMBER,Repeated in this file.
+5,104,INVALID_COORDINATE,"Easting, northing and elevation must be finite numbers."

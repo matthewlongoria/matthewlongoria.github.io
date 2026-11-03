@@ -22,3 +22,16 @@ work/
 *.laz
 *.dwg
 *.dxf
+
+# Engineering source and full release artifacts belong in private repositories.
+*.zip
+*.exe
+*.dll
+*.pdb
+*.cs
+*.csproj
+*.py
+*.dwg
+*.dgn
+.env
+.env.*

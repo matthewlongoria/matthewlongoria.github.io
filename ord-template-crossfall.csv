@@ -1,0 +1,4 @@
+corridor,station,lane,inner_offset,outer_offset,inner_elevation,outer_elevation
+SYN-A,0,L,0,-5,100,99.9
+SYN-A,20,L,0,-5,100,100
+SYN-A,40,R,0,5,100,100.5

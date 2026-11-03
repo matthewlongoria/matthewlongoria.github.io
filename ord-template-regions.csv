@@ -1,0 +1,4 @@
+corridor,region_id,start_station,end_station
+SYN-A,R1,0,100
+SYN-A,R2,20,30
+SYN-A,R3,110,150

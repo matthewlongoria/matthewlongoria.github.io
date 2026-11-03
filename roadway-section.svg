@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="731.52pt" height="399.189375pt" viewBox="0 0 731.52 399.189375" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-03T13:43:43.669051</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 399.189375 
+L 731.52 399.189375 
+L 731.52 0 
+L 0 0 
+z
+" style="fill: #163c3b"/>
+  </g>
+  <g id="axes_1">
+   <g id="FillBetweenPolyCollection_1">
+    <defs>
+     <path id="m2a81e12493" d="M 102.548571 -58.391719 
+L 102.548571 -80.567719 
+L 174.291429 -91.655719 
+L 246.034286 -111.059719 
+L 317.777143 -131.572519 
+L 389.52 -137.116519 
+L 461.262857 -131.572519 
+L 533.005714 -111.059719 
+L 604.748571 -91.655719 
+L 676.491429 -80.567719 
+L 676.491429 -58.391719 
+L 676.491429 -58.391719 
+L 604.748571 -58.391719 
+L 533.005714 -58.391719 
+L 461.262857 -58.391719 
+L 389.52 -58.391719 
+L 317.777143 -58.391719 
+L 246.034286 -58.391719 
+L 174.291429 -58.391719 
+L 102.548571 -58.391719 
+z
+" style="stroke: #344f46"/>
+    </defs>
+    <g clip-path="url(#p2594bbd07e)">
+     <use xlink:href="#m2a81e12493" x="0" y="399.189375" style="fill: #344f46; stroke: #344f46"/>
+    </g>
+   </g>
+   <g id="FillBetweenPolyCollection_2">
+    <defs>
+     <path id="mba760ac9a3" d="M 102.548571 -136.007719 
+L 102.548571 -119.375719 
+L 174.291429 -130.463719 
+L 246.034286 -149.867719 
+L 317.777143 -170.380519 
+L 389.52 -175.924519 
+L 461.262857 -170.380519 
+L 533.005714 -149.867719 
+L 604.748571 -130.463719 
+L 676.491429 -119.375719 
+L 676.491429 -136.007719 
+L 676.491429 -136.007719 
+L 604.748571 -147.095719 
+L 533.005714 -166.499719 
+L 461.262857 -187.012519 
+L 389.52 -192.556519 
+L 317.777143 -187.012519 
+L 246.034286 -166.499719 
+L 174.291429 -147.095719 
+L 102.548571 -136.007719 
+z
+" style="stroke: #acb6a0"/>
+    </defs>
+    <g clip-path="url(#p2594bbd07e)">
+     <use xlink:href="#mba760ac9a3" x="0" y="399.189375" style="fill: #acb6a0; stroke: #acb6a0"/>
+    </g>
+   </g>
+   <g id="FillBetweenPolyCollection_3">
+    <defs>
+     <path id="m9e5042f36e" d="M 102.548571 -147.095719 
+L 102.548571 -136.007719 
+L 174.291429 -147.095719 
+L 246.034286 -166.499719 
+L 317.777143 -187.012519 
+L 389.52 -192.556519 
+L 461.262857 -187.012519 
+L 533.005714 -166.499719 
+L 604.748571 -147.095719 
+L 676.491429 -136.007719 
+L 676.491429 -147.095719 
+L 676.491429 -147.095719 
+L 604.748571 -158.183719 
+L 533.005714 -177.587719 
+L 461.262857 -198.100519 
+L 389.52 -203.644519 
+L 317.777143 -198.100519 
+L 246.034286 -177.587719 
+L 174.291429 -158.183719 
+L 102.548571 -147.095719 
+z
+" style="stroke: #d1d5c5"/>
+    </defs>
+    <g clip-path="url(#p2594bbd07e)">
+     <use xlink:href="#m9e5042f36e" x="0" y="399.189375" style="fill: #d1d5c5; stroke: #d1d5c5"/>
+    </g>
+   </g>
+   <g id="patch_2">
+    <path d="M 556.92 310.305656 
+C 559.13975 310.305656 561.268884 308.261128 562.838484 304.622356 
+C 564.408084 300.983584 565.29 296.047657 565.29 290.901656 
+C 565.29 285.755655 564.408084 280.819728 562.838484 277.180956 
+C 561.268884 273.542184 559.13975 271.497656 556.92 271.497656 
+C 554.70025 271.497656 552.571116 273.542184 551.001516 277.180956 
+C 549.431916 280.819728 548.55 285.755655 548.55 290.901656 
+C 548.55 296.047657 549.431916 300.983584 551.001516 304.622356 
+C 552.571116 308.261128 554.70025 310.305656 556.92 310.305656 
+z
+" clip-path="url(#p2594bbd07e)" style="fill: #173c3b; stroke: #7bc4c1; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 210.162857 313.077656 
+L 229.294286 313.077656 
+L 229.294286 268.725656 
+L 210.162857 268.725656 
+z
+" clip-path="url(#p2594bbd07e)" style="fill: #173c3b; stroke: #b9995a; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 102.548571 252.093656 
+L 174.291429 241.005656 
+L 246.034286 221.601656 
+L 317.777143 201.088856 
+L 389.52 195.544856 
+L 461.262857 201.088856 
+L 533.005714 221.601656 
+L 604.748571 241.005656 
+L 676.491429 252.093656 
+" clip-path="url(#p2594bbd07e)" style="fill: none; stroke: #e8eddd; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 102.548571 252.093656 
+L 174.291429 252.093656 
+L 246.034286 257.637656 
+L 317.777143 268.725656 
+L 389.52 246.549656 
+L 461.262857 235.461656 
+L 533.005714 241.005656 
+L 604.748571 263.181656 
+L 676.491429 274.269656 
+" clip-path="url(#p2594bbd07e)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #b9995a; stroke-width: 1.5"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 166.491173 123.982064 
+Q 253.189048 165.430511 339.886922 206.878959 
+" style="fill: none; stroke: #95b8a7; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #e8eddd" x="150.377143" y="119.037656" transform="rotate(-0 150.377143 119.037656)">PAVEMENT / LAYERS</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 389.52 97.400225 
+Q 389.52 145.473663 389.52 193.5471 
+" style="fill: none; stroke: #95b8a7; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #e8eddd" x="389.52" y="91.317656" transform="rotate(-0 389.52 91.317656)">CROWN / CROSS SLOPE</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 534.252836 130.639712 
+Q 545.446339 209.780296 556.639842 288.92088 
+" style="fill: none; stroke: #95b8a7; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #e8eddd" x="533.005714" y="124.581656" transform="rotate(-0 533.005714 124.581656)">UTILITY ENVELOPE</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 166.419335 341.421369 
+Q 241.196365 305.506674 315.973395 269.591979 
+" style="fill: none; stroke: #95b8a7; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #e8eddd" x="150.377143" y="351.885656" transform="rotate(-0 150.377143 351.885656)">EXISTING TERRAIN</text>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #e8eddd" x="7.2" y="18.597656" transform="rotate(-0 7.2 18.597656)">READ THE SECTION. UNDERSTAND THE RELATIONSHIPS.</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #adc2b5" x="7.2" y="390.117656" transform="rotate(-0 7.2 390.117656)">ATLAS FOUNDRY / Conceptual roadway section · no design dimensions or approved clearances</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2594bbd07e">
+   <rect x="54.72" y="35.877656" width="669.6" height="332.64"/>
+  </clipPath>
+ </defs>
+</svg>
