@@ -1,10 +1,10 @@
 # Field & Signal
 
-Innovative solutions for land, water, and technology. A portfolio by Matthew Longoria, EIT.
+Civil engineering, water resources, GIS, and practical software. A portfolio by Matthew Longoria, M. Eng., EIT.
 
 Public professional portfolio for civil engineering, GIS, water resources, and AI development, with a résumé, a Kiwami Reader project page, Civil 3D and OpenRoads project sections, ArcGIS and QGIS projects, and future AutoCAD and QGIS plugins.
 
-Website: https://matthewlongoria.github.io/
+Website: https://fieldandsignal.tech/ (GitHub Pages, custom domain via `CNAME`)
 
 ## Website
 
