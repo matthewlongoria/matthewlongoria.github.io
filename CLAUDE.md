@@ -6,6 +6,7 @@ Guidance for Claude Code working in this repository. This repo is **public**: ev
 
 - Portfolio and recruiting site for **Matthew Longoria, M. Eng., EIT**, published as **Field & Signal** at https://fieldandsignal.tech/.
 - Hosted on GitHub Pages from `main`, repo root. `CNAME` sets the custom domain; `.nojekyll` disables Jekyll.
+- Practice-area tiles (`area-*.svg`) and work-card images (`work-*.jpg`) are original synthetic illustrations or screenshots of this site's own demos.
 - Plain static HTML/CSS/JS. No build step, no package manager, no framework, no external fonts or analytics. Most pages are single files with inline `<style>`.
 - Fieldbook (`fieldbook.html`, `fieldbook*.mjs`, `fieldbook-sw.js`, `fieldbook.webmanifest`) is an offline-capable PWA prototype.
 
@@ -30,7 +31,8 @@ Guidance for Claude Code working in this repository. This repo is **public**: ev
 
 1. Run `git status` and check the current branch. Work on a branch, not directly on `main`.
 2. Read the files you will touch. Shared styles are mostly inline per page, so a change may need repeating across pages.
-3. Preserve existing working features (project search/filter, experience explorer, 3D grading model, Fieldbook offline mode, CSV/DXF exports).
+3. Preserve existing working features: drainage QA demo and readiness checklist (`drainage-gis-study.html`), 3D grading model and DXF export, Fieldbook offline mode, CSV exports.
+4. The home page (`index.html`) is deliberately short: hero, practice areas, experience, featured work, credentials, about/contact. Put long demos and case studies on their own pages and link to them.
 
 ## Checking your work
 
