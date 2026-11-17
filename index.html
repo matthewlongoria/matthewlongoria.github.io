@@ -45,7 +45,8 @@
     .brand strong{display:block;font-size:16px;line-height:1.2}
     .brand small{display:block;font-size:12px;color:var(--muted)}
     .site-nav{display:flex;align-items:center;gap:28px;font-size:15px}
-    .site-nav a{text-decoration:none;color:var(--text)}
+    .site-nav a{text-decoration:none;color:var(--text);white-space:nowrap}
+    .brand small,.brand strong{white-space:nowrap}
     .site-nav a:hover{color:var(--ink);text-decoration:underline}
     .site-nav .btn{padding:10px 16px;font-size:14px;color:#fff}
     .site-nav .btn:hover{text-decoration:none}
@@ -99,6 +100,32 @@
     .exp-foot{display:flex;flex-wrap:wrap;gap:20px 32px;align-items:center;justify-content:space-between;margin-top:36px}
     .exp-foot p{margin:0;max-width:620px;font-size:14px;color:var(--muted)}
 
+
+    /* AI fluency + workstation */
+    .ai{background:var(--ink-2);color:#fff}
+    .ai h2,.ai h3{color:#fff}
+    .ai .section-head p,.ai .eyebrow{color:#b9cbc3}
+    .ai-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:48px;align-items:start}
+    .ai-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid rgba(255,255,255,.22)}
+    .ai-list article{padding:28px 28px 30px 0;border-bottom:1px solid rgba(255,255,255,.14)}
+    .ai-list article:nth-child(even){padding-left:28px;padding-right:0;border-left:1px solid rgba(255,255,255,.14)}
+    .ai-list h3{font-size:20px;margin-bottom:10px}
+    .ai-list p{margin:0;color:#c3d3cc;font-size:15.5px;line-height:1.6}
+    .ai-list p a{color:var(--lime)}
+    .ai .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+    .ai .tag{background:transparent;border-color:rgba(255,255,255,.25);color:#dbe6e0}
+    .spec{border:1.5px solid var(--lime);background:rgba(222,238,157,.04);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .spec-head{display:flex;justify-content:space-between;padding:10px 16px;border-bottom:1.5px solid var(--lime);font-size:11px;letter-spacing:.14em;color:var(--lime)}
+    .spec h3{font:650 20px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;padding:18px 16px 6px;margin:0}
+    .spec dl{margin:0;padding:0 16px 8px}
+    .spec dl div{display:grid;grid-template-columns:130px minmax(0,1fr);gap:12px;padding:11px 0;border-bottom:1px dashed rgba(222,238,157,.28)}
+    .spec dl div:last-child{border-bottom:0}
+    .spec dt{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#9fb5ac;padding-top:3px}
+    .spec dd{margin:0;font-size:14px;color:#fff}
+    .spec dd small{display:block;font-size:12px;color:#a9bdb5;margin-top:2px}
+    .spec-foot{display:flex;flex-direction:column;gap:4px;padding:12px 16px;border-top:1.5px solid var(--lime);font-size:11px;letter-spacing:.14em;color:var(--lime)}
+    .spec-foot strong{font:600 14px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:0;color:#fff}
+
     /* Featured work */
     .work{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
     .card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);text-decoration:none;color:inherit;transition:border-color .15s,transform .15s,box-shadow .15s}
@@ -149,6 +176,7 @@
     footer nav{display:flex;flex-wrap:wrap;gap:20px}
     footer a{text-decoration:none}footer a:hover{text-decoration:underline}
 
+    @media (max-width:1180px){.site-nav{gap:22px}.site-nav .nav-opt{display:none}}
     @media (max-width:1100px){
       .areas{grid-template-columns:repeat(2,minmax(0,1fr))}
       .area{min-height:540px}
@@ -168,6 +196,7 @@
       .section-head,.about{grid-template-columns:1fr;gap:18px}
       .skill{grid-template-columns:1fr;gap:14px;padding:28px 0}
       .work{grid-template-columns:1fr}
+      .ai-grid{grid-template-columns:1fr}
       .more{grid-template-columns:1fr}
       .more a+a{border-left:0;border-top:1px solid var(--line)}
       .contact{grid-template-columns:1fr;padding:36px 28px;margin-top:80px}
@@ -182,6 +211,9 @@
       .hero-meta div{padding:18px 12px 20px 0}
       .hero-meta div+div{padding-left:12px}
       .areas{grid-template-columns:1fr}
+      .ai-list{grid-template-columns:1fr}
+      .ai-list article,.ai-list article:nth-child(even){padding:24px 0;border-left:0}
+      .spec dl div{grid-template-columns:1fr;gap:2px}
       .area{min-height:520px}
       .cred-grid{grid-template-columns:1fr}
       .cred,.cred+.cred{padding:24px 0;border-left:0}
@@ -198,10 +230,11 @@
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Field &amp; Signal home"><span class="monogram" aria-hidden="true">F/S</span><span><strong>Field &amp; Signal</strong><small>Matthew Longoria, M. Eng., EIT</small></span></a>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="#practice">Practice areas</a>
+      <a class="nav-opt" href="#practice">Practice areas</a>
       <a href="#experience">Experience</a>
+      <a href="#ai">AI &amp; hardware</a>
       <a href="#projects">Work</a>
-      <a href="#credentials">Credentials</a>
+      <a class="nav-opt" href="#credentials">Credentials</a>
       <a href="#contact">Contact</a>
       <a class="btn btn-dark" href="Matthew_Longoria_Resume.pdf">Résumé <span class="arrow" aria-hidden="true">↗</span></a>
     </nav>
@@ -223,7 +256,7 @@
       <div class="hero-meta" aria-label="At a glance">
         <div><strong>5+ years</strong><span>Professional civil, GIS and telecom engineering</span></div>
         <div><strong>300+ mi</strong><span>Fiber backbone and FTTH designed in Indiana and Ohio</span></div>
-        <div><strong>4.0 GPA</strong><span>Graduate Certificate in GIS, UT Arlington</span></div>
+        <div><strong>7 AI models</strong><span>Run locally on a workstation I built</span></div>
         <div><strong>Texas EIT</strong><span>Engineer-in-Training, active</span></div>
       </div>
     </div>
@@ -305,6 +338,42 @@
     </div>
   </section>
 
+
+  <section class="section ai" id="ai" aria-labelledby="ai-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div><div class="eyebrow">AI fluency · Hardware</div><h2 id="ai-title">I build with AI, on a machine I built.</h2></div>
+        <p>I built and configured my own workstation for local AI and engineering software, and I use AI tools every day for coding, research and automation. I treat model output like a first draft from a junior engineer: fast and useful, and always checked before it ships.</p>
+      </div>
+      <div class="ai-grid">
+        <div class="ai-list">
+          <article><h3>Local models on my own GPU</h3><p>Seven open-weight models run through Ollama: a fast 9B model for quick tasks, 20B–27B models for harder reasoning, and an embedding model for document retrieval experiments. No per-token costs, and private data stays on the machine.</p>
+            <div class="tags"><span class="tag">Ollama</span><span class="tag">Qwen</span><span class="tag">Gemma</span><span class="tag">GPT-OSS</span><span class="tag">Embeddings</span></div></article>
+          <article><h3>AI-assisted development</h3><p>I work with Claude Code, GitHub Copilot, OpenAI Codex and Gemini CLI to write, refactor and test code, and I review and test what they produce. The review tools and demos on this site were built that way.</p>
+            <div class="tags"><span class="tag">Claude Code</span><span class="tag">GitHub Copilot</span><span class="tag">Codex</span><span class="tag">Gemini CLI</span></div></article>
+          <article><h3>Applied AI in my own software</h3><p><a href="kiwami-reader.html">Kiwami Reader</a> runs faster-whisper speech recognition locally to caption Japanese game audio as it plays. I’m building a local assistant on the same stack for research and project notes.</p>
+            <div class="tags"><span class="tag">faster-whisper</span><span class="tag">Python</span><span class="tag">PySide6</span></div></article>
+          <article><h3>The plumbing behind it</h3><p>Open WebUI and Cherry Studio as front ends, Docker containers, and a WSL2 Ubuntu environment with CUDA and PyTorch for GPU work.</p>
+            <div class="tags"><span class="tag">Docker</span><span class="tag">WSL2 / Ubuntu</span><span class="tag">CUDA</span><span class="tag">PyTorch</span><span class="tag">Open WebUI</span></div></article>
+        </div>
+        <aside class="spec" aria-label="Workstation specification">
+          <div class="spec-head"><span>WORKSTATION SPEC</span><span>SHEET 1 OF 1</span></div>
+          <h3>Self-built AI &amp; engineering workstation</h3>
+          <dl>
+            <div><dt>Processor</dt><dd>Intel Core i9-13900K<small>24 cores · 32 threads</small></dd></div>
+            <div><dt>Graphics</dt><dd>NVIDIA GeForce RTX 5070 Ti<small>16 GB VRAM · CUDA</small></dd></div>
+            <div><dt>Memory</dt><dd>64 GB DDR5-6000</dd></div>
+            <div><dt>Storage</dt><dd>6.4 TB NVMe</dd></div>
+            <div><dt>Operating system</dt><dd>Windows 11 (64-bit)<small>WSL2 · Ubuntu 24.04</small></dd></div>
+            <div><dt>AI stack</dt><dd>Ollama · Open WebUI · Docker<small>7 local models installed</small></dd></div>
+            <div><dt>Engineering</dt><dd>Civil 3D · ArcGIS Pro · QGIS</dd></div>
+          </dl>
+          <div class="spec-foot"><span>BUILT &amp; CONFIGURED BY</span><strong>Matthew Longoria, M. Eng., EIT</strong></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
   <section class="section" id="projects" aria-labelledby="work-title">
     <div class="wrap">
       <div class="section-head">
@@ -349,7 +418,7 @@
       </div>
       <div class="cred-grid">
         <div class="cred"><span class="kicker">M. ENG.</span><h3>Texas A&amp;M University</h3><p>Civil engineering, water resources focus</p></div>
-        <div class="cred"><span class="kicker">GRADUATE CERTIFICATE</span><h3>UT Arlington</h3><p>Geographic Information Systems · 4.0 GPA · <a href="gis-credential.html">Details</a></p></div>
+        <div class="cred"><span class="kicker">GRADUATE CERTIFICATE</span><h3>UT Arlington</h3><p>Geographic Information Systems · <a href="gis-credential.html">Details</a></p></div>
         <div class="cred"><span class="kicker">B.S.</span><h3>Texas A&amp;M University</h3><p>Geophysics, minors in mathematics and geology</p></div>
         <div class="cred"><span class="kicker">LICENSURE</span><h3>Engineer-in-Training</h3><p>Texas · Active</p></div>
       </div>
