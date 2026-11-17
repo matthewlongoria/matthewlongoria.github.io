@@ -86,15 +86,15 @@
     .area .where{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#a9bdb5;margin-bottom:18px}
     .area .go{font-size:14px;font-weight:650;color:var(--lime)}
 
-    /* Experience timeline */
+    /* Experience by skill */
     .exp{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-    .timeline{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
-    .timeline li{display:grid;grid-template-columns:150px minmax(0,1fr) minmax(0,1.5fr);gap:36px;padding:28px 0;border-bottom:1px solid var(--line)}
-    .timeline .years{font:600 14px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--ink);padding-top:3px}
-    .timeline h3{font-size:20px}
-    .timeline .role{display:block;margin-top:4px;font-size:15px;color:var(--muted)}
-    .timeline p{margin:0;color:#3d4c4a;font-size:16px}
-    .timeline .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+    .skills{border-top:2px solid var(--ink)}
+    .skill{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:48px;padding:34px 0;border-bottom:1px solid var(--line)}
+    .skill-head .num{display:block;font:600 13px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.12em;color:#7a6320;margin-bottom:12px}
+    .skill h3{font-size:24px}
+    .skill p{margin:0;color:#3d4c4a;font-size:17px;line-height:1.65}
+    .skill p a{color:var(--ink);font-weight:600}
+    .skill .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
     .tag{display:inline-block;padding:3px 9px;border:1px solid var(--line);background:var(--paper);font-size:12.5px;color:var(--muted)}
     .exp-foot{display:flex;flex-wrap:wrap;gap:20px 32px;align-items:center;justify-content:space-between;margin-top:36px}
     .exp-foot p{margin:0;max-width:620px;font-size:14px;color:var(--muted)}
@@ -166,7 +166,7 @@
       .hero-meta div:nth-child(n+3){border-top:1px solid rgba(255,255,255,.22)}
       .section{padding:80px 0}
       .section-head,.about{grid-template-columns:1fr;gap:18px}
-      .timeline li{grid-template-columns:1fr;gap:8px}
+      .skill{grid-template-columns:1fr;gap:14px;padding:28px 0}
       .work{grid-template-columns:1fr}
       .more{grid-template-columns:1fr}
       .more a+a{border-left:0;border-top:1px solid var(--line)}
@@ -221,7 +221,7 @@
         </div>
       </div>
       <div class="hero-meta" aria-label="At a glance">
-        <div><strong>6 roles</strong><span>Civil, GIS and telecom engineering since 2019</span></div>
+        <div><strong>5+ years</strong><span>Professional civil, GIS and telecom engineering</span></div>
         <div><strong>300+ mi</strong><span>Fiber backbone and FTTH designed in Indiana and Ohio</span></div>
         <div><strong>4.0 GPA</strong><span>Graduate Certificate in GIS, UT Arlington</span></div>
         <div><strong>Texas EIT</strong><span>Engineer-in-Training, active</span></div>
@@ -241,25 +241,25 @@
           <img src="area-water.svg" alt="" width="800" height="560" loading="lazy">
           <div class="area-body"><span class="num">01</span><h3>Water resources &amp; drainage</h3>
             <p>H&amp;H and stormwater modeling, HEC-RAS and FEMA flood mapping, backed by a graduate focus in water resources.</p>
-            <span class="where">HDR · TxDOT, BNSF, NRCS projects</span><span class="go">See the drainage study →</span></div>
+            <span class="where">HEC-RAS · FEMA mapping · TxDOT drainage</span><span class="go">See the drainage study →</span></div>
         </a>
         <a class="area" href="civil-site-model.html">
           <img src="area-civil.svg" alt="" width="800" height="560" loading="lazy">
           <div class="area-body"><span class="num">02</span><h3>Civil site &amp; grading</h3>
             <p>Site grading, drainage and plan-and-profile design in Bentley OpenRoads, with Civil 3D and MicroStation.</p>
-            <span class="where">FSC Engineers · Patterson &amp; Dewar</span><span class="go">Explore the 3D grading model →</span></div>
+            <span class="where">OpenRoads · Civil 3D · MicroStation</span><span class="go">Explore the 3D grading model →</span></div>
         </a>
         <a class="area" href="gis-credential.html">
           <img src="area-gis.svg" alt="" width="800" height="560" loading="lazy">
           <div class="area-body"><span class="num">03</span><h3>GIS &amp; spatial data</h3>
             <p>Transmission GIS maintenance and QA/QC, ArcGIS Pro and ArcGIS Online, data imports and cartography.</p>
-            <span class="where">Oncor (via Collabra) · Aquila</span><span class="go">See my GIS background →</span></div>
+            <span class="where">ArcGIS Pro · ArcGIS Online · QGIS</span><span class="go">See my GIS background →</span></div>
         </a>
         <a class="area" href="#experience">
           <img src="area-osp.svg" alt="" width="800" height="560" loading="lazy">
           <div class="area-body"><span class="num">04</span><h3>OSP &amp; fiber networks</h3>
             <p>Backbone and FTTH route design in Vetro Fiber and Katapult, with permitting coordination across jurisdictions.</p>
-            <span class="where">Aquila · CCI Systems</span><span class="go">See the experience →</span></div>
+            <span class="where">Vetro Fiber · Katapult · Permitting</span><span class="go">See my experience →</span></div>
         </a>
       </div>
     </div>
@@ -268,31 +268,38 @@
   <section class="section exp" id="experience" aria-labelledby="exp-title">
     <div class="wrap">
       <div class="section-head">
-        <div><div class="eyebrow">Professional experience</div><h2 id="exp-title">Where I’ve done the work.</h2></div>
-        <p>Engineering and GIS roles across consulting, utilities and telecom, most of them remote.</p>
+        <div><div class="eyebrow">Experience</div><h2 id="exp-title">What I bring to a team.</h2></div>
+        <p>More than five years of professional work across engineering consulting, utility and telecom projects, most of it remote. Here it is by skill; my résumé has the full work history.</p>
       </div>
-      <ol class="timeline">
-        <li><span class="years">2024 – 2026</span><div><h3>Aquila Corporation</h3><span class="role">OSP Design Engineer · Remote</span></div>
-          <div><p>Designed 200+ miles of backbone and FTTH fiber in Indiana and 100+ miles of backbone for GLO Fiber in Ohio. Built ArcGIS Online templates and coordinated with permitting authorities, field crews and project managers.</p>
-          <div class="tags"><span class="tag">Vetro Fiber</span><span class="tag">Katapult</span><span class="tag">ArcGIS Online</span><span class="tag">Permitting</span></div></div></li>
-        <li><span class="years">2023 – 2024</span><div><h3>FSC Engineers</h3><span class="role">Engineer-in-Training · Remote</span></div>
-          <div><p>Grading, drainage and site-civil design for lease drilling pads, plus plan-and-profile sheets for subdivision projects.</p>
-          <div class="tags"><span class="tag">OpenRoads Designer</span><span class="tag">Grading</span><span class="tag">Site civil</span></div></div></li>
-        <li><span class="years">2023</span><div><h3>Patterson &amp; Dewar Engineers</h3><span class="role">Civil Engineering Associate · Remote</span></div>
-          <div><p>SPCC plans and SWPPPs for electric cooperative substations and transmission lines, site civil plans, and GIS database support.</p>
-          <div class="tags"><span class="tag">SPCC</span><span class="tag">SWPPP</span><span class="tag">Substations</span><span class="tag">GIS</span></div></div></li>
-        <li><span class="years">2022 – 2023</span><div><h3>Collabra / Oncor</h3><span class="role">GIS Analyst (contract) · Fort Worth</span></div>
-          <div><p>Maintained Oncor’s transmission GIS: QA/QC of new-build data, imports of external datasets, easement records and cartographic products.</p>
-          <div class="tags"><span class="tag">Esri</span><span class="tag">Transmission GIS</span><span class="tag">QA/QC</span></div></div></li>
-        <li><span class="years">2021 – 2022</span><div><h3>CCI Systems</h3><span class="role">Design Engineer · Remote</span></div>
-          <div><p>Fiber and coax route designs, design updates and record drawings in CAD and GIS.</p>
-          <div class="tags"><span class="tag">Fiber / coax</span><span class="tag">CAD</span><span class="tag">Record drawings</span></div></div></li>
-        <li><span class="years">2019 – 2020</span><div><h3>HDR</h3><span class="role">Civil EIT · Dallas</span></div>
-          <div><p>H&amp;H and stormwater modeling, FEMA flood mapping, and cost estimates and technical reports for TxDOT drainage, BNSF drainage and NRCS dam rehabilitation projects.</p>
-          <div class="tags"><span class="tag">HEC-RAS</span><span class="tag">FEMA mapping</span><span class="tag">TxDOT</span><span class="tag">Stormwater</span></div></div></li>
-      </ol>
+      <div class="skills">
+        <article class="skill">
+          <div class="skill-head"><span class="num">01</span><h3>Water resources &amp; drainage</h3></div>
+          <div><p>Hydrologic and hydraulic modeling and stormwater system analysis for drainage infrastructure. FEMA flood mapping in Esri GIS, plus cost estimates and technical reports for TxDOT drainage, railroad drainage and NRCS dam rehabilitation projects. My graduate work focused on water resources.</p>
+          <div class="tags"><span class="tag">HEC-RAS</span><span class="tag">H&amp;H modeling</span><span class="tag">FEMA floodplain mapping</span><span class="tag">Stormwater</span><span class="tag">TxDOT</span></div></div>
+        </article>
+        <article class="skill">
+          <div class="skill-head"><span class="num">02</span><h3>Civil site design &amp; grading</h3></div>
+          <div><p>Grading, drainage and site-civil design for energy-sector drilling pads in Bentley OpenRoads, plan-and-profile sheets for subdivision projects, and site civil plans for electric substations and transmission lines. I’ve also prepared SPCC plans and SWPPPs for utility clients across several states.</p>
+          <div class="tags"><span class="tag">OpenRoads Designer</span><span class="tag">Civil 3D</span><span class="tag">MicroStation</span><span class="tag">Earthwork</span><span class="tag">SPCC / SWPPP</span></div></div>
+        </article>
+        <article class="skill">
+          <div class="skill-head"><span class="num">03</span><h3>GIS &amp; spatial data</h3></div>
+          <div><p>Maintained the transmission GIS for a major Texas electric utility: QA/QC of new-build data, testing system upgrades, importing external datasets, and managing easement records and cartographic products. I’ve also built ArcGIS Online templates for design teams and supported GIS databases for engineering projects.</p>
+          <div class="tags"><span class="tag">ArcGIS Pro</span><span class="tag">ArcGIS Online</span><span class="tag">QGIS</span><span class="tag">Spatial QA/QC</span><span class="tag">Cartography</span></div></div>
+        </article>
+        <article class="skill">
+          <div class="skill-head"><span class="num">04</span><h3>OSP &amp; fiber network design</h3></div>
+          <div><p>Designed more than 300 miles of fiber backbone and FTTH networks in Indiana and Ohio, with fiber design in Vetro Fiber and route design in Katapult on projects exceeding 100,000 feet of path. Coordinated with permitting authorities, field crews and project managers, and produced fiber and coax route designs and record drawings in CAD and GIS.</p>
+          <div class="tags"><span class="tag">Vetro Fiber</span><span class="tag">Katapult</span><span class="tag">Backbone / FTTH</span><span class="tag">Permitting</span><span class="tag">Record drawings</span></div></div>
+        </article>
+        <article class="skill">
+          <div class="skill-head"><span class="num">05</span><h3>Software &amp; automation</h3></div>
+          <div><p>I write Python and ArcPy to take repetitive steps out of CAD and GIS work, and I build browser tools for engineering review. The <a href="tools.html">review tools</a> and <a href="drainage-gis-study.html">drainage study</a> on this site are examples, built with synthetic data.</p>
+          <div class="tags"><span class="tag">Python / ArcPy</span><span class="tag">JavaScript</span><span class="tag">Git / GitHub</span><span class="tag">Local AI tools</span></div></div>
+        </article>
+      </div>
       <div class="exp-foot">
-        <p>This summarizes professional work for past employers. No employer or client deliverables are published on this site; the portfolio studies below use synthetic data.</p>
+        <p>No employer or client deliverables are published on this site. The portfolio studies below use synthetic data.</p>
         <a class="btn btn-dark" href="Matthew_Longoria_Resume.pdf">Download résumé (PDF) <span class="arrow" aria-hidden="true">↗</span></a>
       </div>
     </div>
@@ -358,7 +365,7 @@
       <div class="about">
         <div><div class="eyebrow" style="margin-bottom:16px">About</div><h2 id="about-title">Engineer by training. Builder by nature.</h2></div>
         <div>
-          <p>I’m Matthew Longoria, a civil engineer in Arlington, Texas. I started in drainage and water resources at HDR, then moved through site design, transmission GIS and fiber network design. That path gave me a working view of how water, land, utilities and data fit together on a project.</p>
+          <p>I’m Matthew Longoria, a civil engineer in Arlington, Texas. I started in drainage and water resources, then moved into site design, utility GIS and fiber network design. That path gave me a working view of how water, land, utilities and data fit together on a project.</p>
           <p>Field &amp; Signal is where I build on that experience in my own time: review tools for CAD and GIS workflows, interactive engineering studies, and a few software projects. Everything here uses synthetic or original data.</p>
           <p>I’m looking for a remote role in water resources, drainage, GIS or infrastructure design.</p>
         </div>
